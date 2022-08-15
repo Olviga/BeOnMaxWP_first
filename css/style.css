@@ -12,7 +12,7 @@
 .promo{
     height: 800px;
     background: url('../img/bg/main_bg.png') center center/cover no-repeat;
-    padding: 38px 0 691px 0;
+    padding: 38px 0 62px 0;
 }
 
 .logo .logo_img {
@@ -61,3 +61,31 @@ h2.title{
     color: #FFFFFF;
     padding-top: 21px;
 }
+
+.promo .promo_text{
+    padding: 0 13px;
+    margin-top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF; 
+    text-align: center;   
+}
+
+.promo .promo_text span{
+    font-weight: 700;
+    color: #F9BF3B;
+}
+
+.promo .promo_btn{
+    width: 313px;
+    height: 72px;
+    left: 805px;
+    top: 551px;
+
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
